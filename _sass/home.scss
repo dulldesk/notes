@@ -1,0 +1,12 @@
+.list {
+	&__node {
+		width: 100%;
+		padding: 1rem;
+		font-size: 1.5rem;
+		border-radius: 5px;
+
+		&:hover {
+			background-color: darken($bkgd, 3%);
+		}
+	}
+}

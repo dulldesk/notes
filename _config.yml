@@ -1,1 +1,16 @@
 title: notes
+collections:
+  notes:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: "_notes"
+    values:
+      layout: "note"
+
+sass:
+  style: compressed
+
+exclude: ["README.md"]
