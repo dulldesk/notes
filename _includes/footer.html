@@ -1,3 +1,4 @@
 <footer {% if include.center %} class="center" {% endif %}>
-	<span><a href="/">{{ include.text }}</a></span>
+	{%- capture default_url -%}{{ site.baseurl | append: "/" }}{%- endcapture -%}
+	<span><a href="{{ include.url | default: default_url }}">{{ include.text }}</a></span>
 </footer>

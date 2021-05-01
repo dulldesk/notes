@@ -1,4 +1,5 @@
 title: notes
+baseurl: "/notes" # the subpath of your site, e.g. /blog
 collections:
   notes:
     output: true
