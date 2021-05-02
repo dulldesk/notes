@@ -6,7 +6,7 @@
 		border-radius: 5px;
 
 		&:hover {
-			background-color: darken($bkgd, 3%);
+			background-color: $bkgd-fade;
 		}
 	}
 }

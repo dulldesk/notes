@@ -1,6 +1,7 @@
 @import "colours";
 @import "home.scss";
 @import "note.scss";
+@import "dark-mode.scss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap');
 
 * {
@@ -23,10 +24,11 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: "Montserrat", sans-serif;
 	padding: 1rem 0;
 	margin: 0;
-	color: $head;
+	color: $head2;
 }
 h1 {
 	font-size: 2.5rem;
+	color: $head;
 }
 
 a, a:visited, a:hover {
@@ -45,7 +47,7 @@ main {
 		font-size: 1.2rem;
 	}
 	a, a:visited {
-		border-bottom: 1.5px solid rgba($link, 0.7);
+		border-bottom: 1.5px solid $link-fade;
 	}
 }
 main, footer {
