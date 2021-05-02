@@ -9,7 +9,10 @@ $ tshark -r file.pcapng -T fields -e dns.qry.name -Y "ip.addr == 18.217.1.57 && 
 ```
 
 `-r`: file
+
 `-Y`: filter
+
 `-e`: extract certain fields
-- requires `-T`: format of text output (`fields` option outputs only the field value)
+
+`-T`: format of text output (required for `-e`; `fields` option outputs only the field value)
 
