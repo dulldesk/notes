@@ -1,5 +1,8 @@
 title: notes
 baseurl: "/notes" # the subpath of your site, e.g. /blog
+
+baseurl_permalink: "/notes/" 
+
 plugins:
   - jekyll-feed
 
