@@ -1,5 +1,8 @@
 title: notes
 baseurl: "/notes" # the subpath of your site, e.g. /blog
+plugins:
+  - jekyll-feed
+
 collections:
   notes:
     output: true
@@ -16,3 +19,9 @@ sass:
 
 exclude: ["README.md"]
 highlighter: rouge
+
+feed:
+  path: "posts.xml" # posts do not exist
+  collections:
+    notes:
+      path: "atom.xml"
