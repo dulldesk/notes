@@ -1,5 +1,6 @@
 ---
 title: CSS "Dark Mode"
+date: 2021-03-28
 ---
 
 Apply css based on the user's light/dark mode theme preference. 

@@ -1,5 +1,6 @@
 ---
 title: Jekyll Quick Links
+date: 2021-01-31
 ---
 
 - [Liquid tags](https://shopify.github.io/liquid/tags/)
