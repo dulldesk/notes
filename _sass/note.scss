@@ -4,3 +4,8 @@ ul {
 pre.highlight {
 	overflow-x: auto;
 }
+main small {
+	&, & a, & p {
+		font-size: smaller;
+	}
+}

@@ -2,8 +2,10 @@
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {
   color: #f8f8f2;
-  background-color: #27282295;
   border-radius: 5px;
+}
+.highlight {
+  background-color: #27282295;
 }
 pre.highlight {
  padding: 10px;
