@@ -1,4 +1,5 @@
 @import "colours";
+@import "text.scss";
 @import "home.scss";
 @import "note.scss";
 @import "dark-mode.scss";
@@ -20,36 +21,6 @@ body {
 	flex-flow: column nowrap;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	font-family: "Montserrat", sans-serif;
-	padding: 1rem 0;
-	margin: 0;
-	color: $head2;
-}
-h1 {
-	font-size: 2.5rem;
-	color: $head;
-}
-
-a, a:visited, a:hover {
-	color: $text;
-	outline: none;
-	text-decoration: none;
-	transition: all 0.15s ease-out;
-}
-a:hover {
-	color: $link; 
-	border-bottom-color: transparent;
-}
-
-main {
-	p, span, a, li, pre, code {
-		font-size: 1.2rem;
-	}
-	a, a:visited {
-		border-bottom: 1.5px solid $link-fade;
-	}
-}
 main, footer {
 	width: 80%;
 	max-width: 1000px;
