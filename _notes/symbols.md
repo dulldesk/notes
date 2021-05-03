@@ -10,6 +10,6 @@ because | &#8757;
 infinity | &#8734;
 
 <style>
-td,p {font-family: monospace;}
+td {font-family: monospace; padding-right: 1rem;}
 </style>
 

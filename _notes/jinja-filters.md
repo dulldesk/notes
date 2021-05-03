@@ -16,7 +16,6 @@ Taken from [the documentation](https://jinja.palletsprojects.com/en/2.11.x/templ
 table {
 	width: 100%;
 	font-family: monospace;
-	font-size: 1.2rem;
 }
 td {
 	padding: 2.5px;
