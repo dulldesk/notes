@@ -1,0 +1,65 @@
+---
+title: Common Symbols for Copying
+date: 2021-05-03
+---
+
+{% capture md %}
+degrees | &#176;
+delta | &Delta;  
+therefore | &#8756;
+because | &#8757;
+infinity | &#8734;
+bullet | &#8226;
+times | &#215;
+alpha | &alpha;
+beta | &beta;
+gamma | &gamma;
+theta | &theta;
+element of | &#8712;
+{% endcapture %}
+{{ md | markdownify }}
+
+<style>
+td {font-family: monospace; padding-right: 1rem;}
+input {
+ background: none;
+ color: var(--text);
+ border: 0;
+ font-size: 1.2rem;
+ width: 2.5rem;
+ font-family: monospace;
+ outline: none;
+}
+input:hover {cursor: pointer}
+</style>
+<script>
+window.addEventListener("load",() => {
+	document.querySelectorAll("td:last-child").forEach(elm => {
+		const symbol = elm.textContent;
+		const label = elm.previousElementSibling.textContent;
+		
+		const inp = document.createElement("input");
+		inp.value = symbol;
+		inp.id = label;
+		inp.setAttribute("readonly", true);
+		elm.textContent = "";
+		elm.append(inp);
+		
+		const copy = () => {
+			let inpt = document.getElementById(label);
+			inpt.select();
+			inpt.setSelectionRange(0, 99999);
+			if (document.execCommand("copy")) {
+				const msg = document.createElement("span");
+				msg.style.fontSize = "1rem";
+				msg.innerHTML = "&#10003;";
+				elm.append(msg);
+				setTimeout(() => {msg.remove();}, 700);
+			};
+		};
+		inp.onclick = copy;
+		elm.previousElementSibling.onclick = copy;
+	});
+});
+</script>
+
