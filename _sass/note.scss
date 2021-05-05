@@ -9,3 +9,13 @@ main small {
 		font-size: smaller;
 	}
 }
+
+table.no-border  {
+	width: 100%;
+	td {
+		padding: 2.5px;
+	}
+	a {
+		border-bottom: transparent;
+	}
+}
