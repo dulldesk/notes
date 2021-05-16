@@ -1,0 +1,28 @@
+---
+title: Parse Command Line Arguments
+date: 2020-11-05
+---
+
+## Node.js:
+Variable: `process.argv`
+```
+$ node argv.js 1 2 3 
+[ '/path/to/node', '/path/to/argv.js', '1', '2', '3' ]
+```
+
+## Python
+Variable: `sys.argv` (must import `sys` module)
+```
+$ python argv.py 1 2 3
+['argv.py', '1', '2', '3']
+```
+
+## Java
+Variable: `args` (`String[]` datatype parameter in `main()` function)
+```
+$ java Main 1 2 3
+Contents of String[] args: ["1", "2", "3"]
+```
+
+<small>[node.js](https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/)</small>
+<small>[java](https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html)</small>
