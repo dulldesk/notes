@@ -10,4 +10,4 @@ Taken from [the documentation](https://jinja.palletsprojects.com/en/2.11.x/templ
 {% tablerow term in site.data.jinja.filters cols:4 %}
 	<a href="https://jinja.palletsprojects.com/en/2.11.x/templates#{{ term }}">{{ term }}()</a>
 {% endtablerow  %}
-</table>	
+</table>
