@@ -10,7 +10,7 @@ main small {
 	}
 }
 
-table.no-border  {
+table.no-border {
 	width: 100%;
 	td {
 		padding: 2.5px;
@@ -18,6 +18,12 @@ table.no-border  {
 	a {
 		border-bottom: transparent;
 	}
+}
+th {
+	text-align: left;
+}
+td {
+	padding-right: 1rem;
 }
 .note {
 	margin-top: 5rem;

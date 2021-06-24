@@ -11,44 +11,37 @@ JavaScript | `\x1b[`
 Python | `\033[`
 Java | `\u001B[`
 Bash | `\033[0;`
+PowerShell | `[char]0x1b + '['` (or in one string via a subexpression operator: `"$([char]0x1b)["`)
 
-`esc` is encoded in octal in Python and Bash (hence `\0`) but in hexadecimal in JavaScript (`\x`) and Java (`\u` for unicode).
+`esc` is encoded in octal in Python and Bash (hence `\0`) but in hexadecimal in JavaScript (`\x`), Java (`\u` for unicode), and PowerShell (`0x`).
 
 The colour codes are as follows.
 
 <div style="display:flex; justify-content:space-around;">
 {% capture md %}
-Foreground | 
+Colour | FG | BG
 ---- | 
-Black | `30m`
-Red | `31m`
-Green | `32m`
-Yellow | `33m`
-Blue | `34m`
-Magenta | `35m`
-Cyan | `36m`
-White | `37m`
+Black | `30m` | `40m`
+Red | `31m` | `41m`
+Green | `32m` | `42m`
+Yellow | `33m` | `43m`
+Blue | `34m` | `44m`
+Magenta | `35m` | `45m`
+Cyan | `36m` | `46m`
+White | `37m` | `47m`
 
-Background | 
+Colour | FG | BG
 ---- | 
-Black | `40m`
-Red | `41m`
-Green | `42m`
-Yellow | `43m`
-Blue | `44m`
-Magenta | `45m`
-Cyan | `46m`
-White | `47m`
+Bright Black (gray) | `90m` | `100m`
+Bright Red | `91m` | `101m`
+Bright Green | `92m` | `102m`
+Bright Yellow | `93m` | `103m`
+Bright Blue | `94m` | `104m`
+Bright Magenta | `95m` | `105m`
+Bright Cyan | `96m` | `106m`
+Bright White | `97m` | `107m`
 
-Additional Codes | 
----- | 
 Reset | `0m`
-Bright | `1m`
-Dim | `2m`
-Underscore | `4m`
-Blink | `5m`
-Reverse | `7m`
-Hidden | `8m`
 {% endcapture %}
 {{ md | markdownify }}
 </div>
@@ -59,6 +52,8 @@ Examples:
 console.log('\x1b[36mcyan\x1b[0m');
 console.log('\x1b[36m%s\x1b[0m', 'cyan');
 ```
+
+Note that colour can also be printed in [PowerShell terminals]({{ "posh-colours" | relative_url }}) via `Write-Host` and the `-ForegroundColor` and `-BackgroundColor` parameters. 
 
 <small>
 [On ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors)
