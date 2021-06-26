@@ -3,7 +3,7 @@ title: Colours of the PowerShell Rainbow
 date: 2020-01-23
 ---
 
-PowerShell's foreground and background colours available for printing can be displayed via the following PowerShell command:
+See PowerShell's built-in foreground and background printing colours via the following command:
 ```powershell
 [enum]::GetValues([ConsoleColor]) | % {Write-Host $_ -ForegroundColor $_} 
 ```

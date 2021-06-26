@@ -42,6 +42,12 @@ Bright Cyan | `96m` | `106m`
 Bright White | `97m` | `107m`
 
 Reset | `0m`
+Bold | 1m
+Dim | 2m
+Italic (not widely supported) | 3m
+Underline | 4m
+Blink | 5m, 6m
+Strikethrough | 9m
 {% endcapture %}
 {{ md | markdownify }}
 </div>
