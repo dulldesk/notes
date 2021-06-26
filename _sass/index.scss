@@ -15,7 +15,7 @@ body {
 	color: $text;
 	font-family: "Open Sans", sans-serif;
 	margin: 0;
-	min-height: 100vh;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -25,6 +25,11 @@ body {
 main, footer {
 	width: 80%;
 	max-width: 1000px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+main {
+	max-height: min(550px, 70%);
 }
 footer {
 	margin: 1.5rem 0;

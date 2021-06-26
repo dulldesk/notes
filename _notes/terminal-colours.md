@@ -17,7 +17,7 @@ PowerShell | `[char]0x1b + '['` (or in one string via a subexpression operator: 
 
 The colour codes are as follows.
 
-<div style="display:flex; justify-content:space-around;">
+<div class="multi-table-wrapper">
 {% capture md %}
 Colour | FG | BG
 ---- | 
@@ -59,3 +59,7 @@ Note that colour can also be printed in [PowerShell terminals]({{ "posh-colours"
 [On ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors)
 [Source](https://stackoverflow.com/a/41407246)
 </small>
+
+<style>
+td {vertical-align: top;}
+</style>

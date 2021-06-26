@@ -1,11 +1,8 @@
 .list {
-	height: 85%;
-	max-height: 500px;
+	height: calc(100% - 5rem);
 	overflow-y: auto;
 	max-width: 800px;
 	margin: 0 auto;
-	padding-left: 10px;
-	padding-right: 10px;
 	@extend %scrollbar;
 
 	&__node {
