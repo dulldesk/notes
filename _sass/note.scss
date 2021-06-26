@@ -1,21 +1,24 @@
 .note {
 	margin-top: 5rem;
 	overflow-y: auto;
-	padding-left: 10%;
-	padding-right: 10%;
-	width: 100%;
 	max-height: unset;
 	max-width: unset;
 
 	+ footer {
 		margin: 1rem 0 3rem;
-		padding: 0;
 		max-width: unset;
 
 		@media (max-width: 400px) {
 			margin-bottom: 2rem;
 		}
 	}
+	@extend %scrollbar;
+}
+
+.note, .note + footer {
+	padding-left: calc(50% - min(500px, 40%));
+	padding-right: calc(50% - min(500px, 40%));
+	width: 100%;
 }
 
 ul {
