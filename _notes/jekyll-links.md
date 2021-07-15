@@ -15,6 +15,7 @@ date: 2021-01-31
 - [Jekyll docs](https://jekyllrb.com/docs/)
 
 - [Jekyll Markdown](https://www.markdownguide.org/tools/jekyll/)
+- [Jekyll SEO](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md)
 
 <style>
 	main p {margin: 0; font-size: 0.75rem;}
