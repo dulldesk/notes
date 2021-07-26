@@ -11,7 +11,7 @@ JavaScript | `\x1b[`
 Python | `\033[`
 Java | `\u001B[`
 Bash | `\033[0;`
-PowerShell | `[char]0x1b + '['` (or in one string via a subexpression operator: `"$([char]0x1b)["`)
+PowerShell | `[char]0x1b + '['` (or in one string via a subexpression operator: `"$([char]0x1b)["` )
 
 `esc` is encoded in octal in Python and Bash (hence `\0`) but in hexadecimal in JavaScript (`\x`), Java (`\u` for unicode), and PowerShell (`0x`).
 
