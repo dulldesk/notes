@@ -42,3 +42,8 @@ footer {
 		}
 	}
 }
+
+::selection {
+	background-color: $highlight;
+	color: white;
+}
