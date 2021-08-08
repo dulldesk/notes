@@ -1,11 +1,4 @@
-$white: #FFFCF2;
-$charcoal: #373432;
-$green: #00A676;
-$lavendar: #C2AFF0;
-// $purple: #615482;
-$silver: #969EB0;
-$lighter-green: #497367;
-
+// @import "colours":
 @media (prefers-color-scheme: dark) {
 	:root {
 		--bkgd: #{$charcoal};
