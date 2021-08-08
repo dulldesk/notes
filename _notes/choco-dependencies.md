@@ -26,6 +26,8 @@ $t = @{}; ls C:\ProgramData\chocolatey\lib -r "*.nuspec" | % {if ($d = (([xml](c
 
 Note that, should X depend on Y and Y depend on Z, this does not directly show that X depends on Z. 
 
+Side note: `choco uninstall pkgname -x` force uninstalls a package's dependencies (in addition to the package itself), should no other installed packages be dependent on them. 
+
 [reference](https://superuser.com/questions/1117789/is-there-a-way-to-list-all-chocolatey-packages-that-have-no-dependencies) [on Format-List](https://thomasrayner.ca/powershell-rules-for-format-table-and-format-list/)
 
 <script>
