@@ -6,7 +6,7 @@ date: 2021-08-07
 Git can be configured to ignore certain commits when running `git blame`. 
 
 ```
-# Commit by commit basiss
+# Commit by commit basis
 git blame --ignore-rev <commit hash> <file name>
 ```
 
