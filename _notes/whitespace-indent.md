@@ -1,5 +1,5 @@
 ---
-title: Keeping indentation in the <&#8288;pre&#8288;>
+title: Preserving indentation in the <&#8288;pre&#8288;>
 date: 2020-11-18
 ---
 
