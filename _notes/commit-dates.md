@@ -6,7 +6,7 @@ date: 2021-07-12
 A git commit has an `author date` and `commit date`; the two differ in situations such as squashing, where the author date precedes the commit date (the timestamp of the squashing). While `git log` shows the author date, a GitHub repo's commit history displays the commit date.
 
 To change the commits such that the commit date matches the author date:
-```
+```bash
 git filter-branch --env-filter 'export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"' HEAD~4..HEAD
 ```
 

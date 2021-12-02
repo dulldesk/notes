@@ -3,9 +3,9 @@ title: Git Aliases
 date: 2021-11-04
 ---
 
-Configure git aliases by:
+Configure aliases for `git` commands.
 
-```
+```bash
 git config --global alias.sta status
 git sta
 
