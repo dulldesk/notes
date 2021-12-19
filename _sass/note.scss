@@ -67,6 +67,20 @@
 		justify-content:space-around; 
 		flex-wrap: wrap;
 	}
+	dl {
+		dt {
+			margin-top: 1rem;
+		}
+		dd {
+			p {
+				font-size: revert;
+				margin: unset;
+				code {
+					font-size: 1rem;
+				}
+			}
+		}
+	}
 }
 
 .note, .note + footer {

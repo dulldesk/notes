@@ -1,0 +1,6 @@
+'word-break: normal': "Use the default line break rule: lines may only break at normal word break points (e.g. **spaces** between two words). (default)"
+'word-break: break-all': To prevent overflow, word breaks should be inserted **between any two characters** (excluding <abbr title="Chinese/Japanese/Korean">CJK</abbr> text).
+'word-break: keep-all': Word breaks should not be used for CJK text. Non-CJK text behavior is the same as for `normal`.
+'overflow-wrap: normal': Use the default line break rule. (default)
+'overflow-wrap: anywhere': To prevent overflow, an otherwise unbreakable string of characters — like a long word or URL — may be **broken at any point** if there are no otherwise acceptable break points in the line. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by the word break are considered when calculating min-content intrinsic sizes.
+'overflow-wrap: break-word': The same as the `anywhere` value, but soft wrap opportunities introduced by the word break are NOT considered when calculating min-content intrinsic sizes.
