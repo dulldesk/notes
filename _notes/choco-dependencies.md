@@ -22,7 +22,7 @@ Minified:
 $t = @{}; ls C:\ProgramData\chocolatey\lib -r "*.nuspec" | % {if ($d = (([xml](cat $_.fullname)).package.metadata.dependencies.dependency | % {$_.id})) {$t.add($_.basename, $d)}}; [PSCustomObject]$t | fl
 ```
 
-`Format-List`, or `fl`, is optional and purely cosmetic. If there are <span class="help" title="5+">enough</span> properties, or in this case packages with dependencies, then PowerShell will automatically format the output as a list as opposed to a table. 
+`Format-List`, or `fl`, is optional and purely cosmetic. If there are <abbr title="5+">enough</abbr> properties, or in this case packages with dependencies, then PowerShell will automatically format the output as a list as opposed to a table. 
 
 Note that, should X depend on Y and Y depend on Z, this does not directly show that X depends on Z. 
 

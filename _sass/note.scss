@@ -19,11 +19,6 @@
 	}
 	@extend %scrollbar;
 
-	.help {
-		cursor: help;
-		border-bottom: 2px dotted #888;
-	}
-
 	pre.highlight {
 		overflow-x: auto;
 		@extend %scrollbar;

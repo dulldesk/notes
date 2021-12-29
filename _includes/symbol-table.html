@@ -1,0 +1,11 @@
+{%- assign N = include.N -%}
+{%- assign total = include.data.size | divided_by:N -%}
+
+{%- for ind in (0..total) -%}
+  <table class="no-border monospace w-auto">
+    {%- assign start = ind | times:N -%}
+    {%- tablerow term in include.data offset:start cols:1 limit:N -%}
+      {{ term.character }}&emsp;&emsp;{{ term.symbol }}
+    {%- endtablerow -%}
+  </table>
+{%- endfor -%}
