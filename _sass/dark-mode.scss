@@ -10,4 +10,7 @@
 		--link-fade: #{rgba($lavendar, 0.7)};
 		--highlight: #{$lighter-green};
 	}
+	.dark-invert {
+		filter: #{"invert()"};
+	}
 }
