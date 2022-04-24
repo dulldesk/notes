@@ -6,13 +6,17 @@ layout: home
 <h1 class="center">{{ page.title }}</h1>
 <div class="list">
 	{%- for note in site.notes reversed -%}
-		<a href="{{ note.url | relative_url }}">
-			<div class="list__node">
-				<span>{{ note.title }}</span>
-			</div>
-		</a>
-		{%- if forloop.last != true -%}
-			<hr>
-		{%- endif -%}
+		<div class="list__node" data-tags="{{ note.title }},{{ note.tags }}">
+			<a href="{{ note.url | relative_url }}">
+				<div class="list__title">
+					<span>{{ note.title }}</span>
+				</div>
+			</a>
+			{%- if forloop.last != true -%}
+				<hr>
+			{%- endif -%}
+		</div>
 	{%- endfor -%}
 </div>
+<input id="searchbar" onkeyup="filter(this.value)">
+<script src="{{ 'assets/js/search.js' | relative_url }}"></script>

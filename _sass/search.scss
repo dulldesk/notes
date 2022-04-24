@@ -1,0 +1,19 @@
+#searchbar {
+	$mar: 2rem;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin: $mar;
+	width: calc(100% - #{2 * $mar});
+
+	font: 300 2rem "Open Sans", sans-serif;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: white;
+	text-align: right;
+}
+.hide {
+	display: none;
+}
+
