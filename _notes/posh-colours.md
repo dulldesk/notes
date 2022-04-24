@@ -1,6 +1,7 @@
 ---
 title: Colours of the PowerShell Rainbow
 date: 2020-01-23
+tags: [posh]
 ---
 
 See PowerShell's built-in foreground and background printing colours via the following command:

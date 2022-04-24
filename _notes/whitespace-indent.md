@@ -1,6 +1,7 @@
 ---
 title: Preserving indentation in the <&#8288;pre&#8288;>
 date: 2020-11-18
+tags: [css]
 ---
 
 One typically indents HTML code when writing it to visualize the hierarchy of nested elements and for the sake of organization. 

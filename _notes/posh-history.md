@@ -1,6 +1,7 @@
 ---
 title: Get PowerShell History
 date: 2020-11-13
+tags: [posh]
 ---
 
 ```powershell

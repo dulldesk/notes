@@ -1,6 +1,7 @@
 ---
 title: Run a Windows Defender scan via command line
 date: 2021-12-12
+tags: [posh, powershell]
 ---
 
 Windows Defender Antivirus has a command line utility.

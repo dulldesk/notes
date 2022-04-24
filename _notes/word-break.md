@@ -1,6 +1,7 @@
 ---
 title: Word Breaking and Soft Hyphens
 date: 2021-12-19
+tags: [css]
 ---
 
 There's a couple of ways to determine where to break a line of text.

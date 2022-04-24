@@ -1,6 +1,7 @@
 ---
 title: Printing Colours in the Terminal
 date: 2021-05-15
+tags: [powershell, shell, posh, console]
 ---
 
 Print ANSI escape codes in order to print colours in the terminal. 

@@ -1,6 +1,7 @@
 ---
 title: "display: contents"
 date: 2022-01-27
+tags: [css]
 ---
 
 When adding `display: contents` to a parent element:

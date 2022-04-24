@@ -1,6 +1,7 @@
 ---
 title: Get File/Program Version via PowerShell
 date: 2021-08-15
+tags: [posh]
 ---
 
 ```powershell
