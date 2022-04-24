@@ -12,8 +12,14 @@
 	outline: none;
 	color: white;
 	text-align: right;
+
+	&::placeholder {
+		color: transparent;
+	}
+	&:hover::placeholder {
+		color: rgba(255,255,255,0.2);
+	}
 }
 .hide {
 	display: none;
 }
-
