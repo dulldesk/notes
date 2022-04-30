@@ -49,5 +49,14 @@ magick compare -metric SSIM a.jpg b.jpg diff-output.png
 The output of <abbr title="structural similarity index">`SSIM`</abbr> ranges from `0` (completely different) to `1` (identical).
 Other metrics available include <abbr title="absolute error count / number of different pixels">`AE`</abbr> and <abbr title="structural dissimilarity index">`DSSIM`</abbr>.
 
+## Filters
+
+**Inversion**:
+```
+magick input.png output.png
+# if an alpha channel is present (i.e. has transparency)
+magick input.png -channel RGB -negate output.png
+```
+
 <br>
 [other `magick` options](https://imagemagick.org/script/command-line-options.php) [and tools](https://imagemagick.org/script/command-line-tools.php)

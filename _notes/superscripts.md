@@ -1,6 +1,7 @@
 ---
 title: Fake Superscript Symbols
 date: 2021-05-10
+tags: [subscripts]
 ---
 
 {% include symbol-table.html N=9 data=site.data.superscripts %}

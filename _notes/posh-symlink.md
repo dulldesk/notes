@@ -1,7 +1,7 @@
 ---
 title: Creating a symlink via PowerShell
 date: 2021-06-23
-tags: [posh]
+tags: [posh, symboliclink, hardlink, junction]
 ---
 
 In past times, I've used cmd's `mklink`. The PowerShell way is as follows:
