@@ -10,14 +10,15 @@
 	background: transparent;
 	border: none;
 	outline: none;
-	color: white;
+	color: $text;
 	text-align: right;
 
 	&::placeholder {
-		color: transparent;
+		color: $text;
+		opacity: 0;
 	}
 	&:hover::placeholder {
-		color: rgba(255,255,255,0.2);
+		opacity: 0.2;
 	}
 }
 .hide {
