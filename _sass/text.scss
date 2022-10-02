@@ -19,6 +19,9 @@ a:hover {
 	color: $link; 
 	border-bottom-color: transparent;
 }
+strong {
+	font-weight: bold;
+}
 
 main {
 	p, span, a, li, pre, code, table, td {
