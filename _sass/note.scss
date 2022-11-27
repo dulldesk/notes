@@ -1,11 +1,11 @@
 .note {
-	margin-top: 5rem;
+	margin-top: 3rem;
 	overflow-y: auto;
 	max-height: unset;
 	max-width: unset;
 
 	+ footer {
-		margin: 1rem 0 3rem;
+		margin: 1rem 0 2.3rem;
 		max-width: unset;
 
 		@media (max-width: 400px) {
