@@ -28,8 +28,8 @@ function foo {
 
 
 Related: two common parameters
-* `-ErrorAction [Continue [default] | Stop | SilentlyContinue | Inquire]`. `Stop` is terminating. <small><i>e.g. `mv a b -erroraction stop`, `mv c d -ea silentlycontinue`</i></small>
-* `-ErrorVariable var_name` - errors are assigned to this variable. Default: `$error`. Can also pass `+var_name` to append and not clear the variable. `var_name` is of type `ArrayList`. Default: `$error`. <small><i>e.g. `mv a a -errorvariable e`, `mv a a -ev e`</i></small>
+* `-ErrorAction [Continue [default] | Stop | SilentlyContinue | Inquire]`. `Stop` is terminating. <small><i>e.g.</i> `mv a b -ErrorAction Stop`, `mv c d -ea SilentlyContinue`</small>
+* `-ErrorVariable var_name` - errors are assigned to this variable. Default: `$error`. Can also pass `+var_name` to append and not clear the variable. `var_name` is of type `ArrayList`. Default: `$error`. <small><i>e.g.</i> `mv a a -ErrorVariable e`, `mv a a -ev e`</i></small>
 
 
 [docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally) 

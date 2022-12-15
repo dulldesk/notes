@@ -1,7 +1,7 @@
 ---
 title: Play a beep in PowerShell
 date: 2021-09-24
-tags: [posh]
+tags: [posh,sounds]
 ---
 
 ```powershell
