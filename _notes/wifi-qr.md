@@ -1,5 +1,5 @@
 ---
-title: WiFi QR Code Format
+title: Wi-Fi QR Code Format
 date: 2022-12-15
 ---
 
