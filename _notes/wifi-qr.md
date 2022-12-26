@@ -6,7 +6,7 @@ date: 2022-12-15
 > `WIFI:T:WPA;S:my_ssid;P:mys3curepasswd;;`
 
 Encode string into a <abbr title="do it offline!">QR code</abbr>
-and iOS & Android phones can scan to join the network.
+and iOS & Android phones can scan it to join the network.
 
 Note that special characters in arguments (like `:`) need to be escaped (i.e. `\:`)
 
