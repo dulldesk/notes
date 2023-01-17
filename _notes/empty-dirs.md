@@ -27,7 +27,7 @@ ls -dir | select -first 1 | Remove-IfEmpty
 
 Minified:
 ```powershell
-Function Remove-IfEmpty {[CmdletBinding(SupportsShouldProcess)]; Param([Parameter(ValueFromPipeline)] $dir);  process {if ((Test-Path $dir.fullname -PathType container) -and ((ls $dir.fullname -rec -file | measure | select -expand count) -eq 0)) {rm $_.fullname}}}
+Function Remove-IfEmpty {[CmdletBinding(SupportsShouldProcess)] Param([Parameter(ValueFromPipeline)] $dir);  process {if ((Test-Path $dir.fullname -PathType container) -and ((ls $dir.fullname -rec -file | measure | select -expand count) -eq 0)) {rm $_.fullname}}}
 ```
 
 [about `WhatIf` & `Confirm`]({% link _notes/posh-whatif.md %}) [about the PowerShell pipeline]({% link _notes/posh-pipeline.md %})
