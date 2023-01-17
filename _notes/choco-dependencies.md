@@ -30,12 +30,4 @@ Side note: `choco uninstall pkgname -x` force uninstalls a package's dependencie
 
 [reference](https://superuser.com/questions/1117789/is-there-a-way-to-list-all-chocolatey-packages-that-have-no-dependencies) [on Format-List](https://thomasrayner.ca/powershell-rules-for-format-table-and-format-list/)
 
-<script>
-  document.querySelector("div[class*='highlighter']:last-of-type code").addEventListener("click", function() {
-    let sel = window.getSelection();
-    sel.removeAllRanges();
-    let range = document.createRange();
-    range.selectNodeContents(this);
-    sel.addRange(range);
-  });
-</script>
+<script src="{{ 'assets/js/copy-last-code.js' | relative_url }}"></script>

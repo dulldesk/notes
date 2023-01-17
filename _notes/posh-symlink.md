@@ -4,7 +4,7 @@ date: 2021-06-23
 tags: [posh, symboliclink, hardlink, junction]
 ---
 
-In past times, I've used cmd's `mklink`. The PowerShell way is as follows:
+In past times, I've used cmd's [`mklink`](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/mklink). The PowerShell way is as follows:
 
 ```powershell
 New-Item -ItemType SymbolicLink -Path "C:\LINK" -Target "C:\SOURCE"
