@@ -28,7 +28,7 @@ Push-Me -WhatIf
 *[`$args`](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_automatic_variables?view=powershell-7.3#args) is not available in advanced functions (as defined by `CmdletBinding`)*
 
 [reference](https://devblogs.microsoft.com/scripting/introduction-to-advanced-powershell-functions/)
-[another example]({% link _notes/empty-dirs.md %})
+[another example]({{ site.baseurl }}{% link _notes/empty-dirs.md %})
 
 
 <style>
