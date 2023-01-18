@@ -16,10 +16,10 @@ $o.playlooping()
 
 A function:
 ```powershell
-function play($f) {
+function play($f, [switch]$loop=$false) {
 	if (test-path "$pwd\$f") {$f = "$pwd\$f"}
 	$o = new-object media.soundplayer $f
-	$o.play()
+	if ($loop) {$o.playlooping()} else {$o.play()}
 	return $o
 }
 ```
