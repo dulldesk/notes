@@ -1,5 +1,5 @@
 ---
-title: Web Browser Notepad with data URLs
+title: Web Browser Notepad using data URLs
 date: 2023-01-22
 tags: ["data urls"]
 ---
