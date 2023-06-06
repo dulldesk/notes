@@ -1,5 +1,5 @@
 ---
-title: some ffmpeg commands
+title: Some ffmpeg commands
 date: 2023-01-01
 ---
 

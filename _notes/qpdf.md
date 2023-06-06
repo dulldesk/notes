@@ -1,5 +1,5 @@
 ---
-title: qpdf commands
+title: Some qpdf commands
 date: 2022-09-11
 ---
 
