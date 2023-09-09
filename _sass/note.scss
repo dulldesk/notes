@@ -95,6 +95,9 @@ main small {
 	&, & a, & p {
 		font-size: smaller;
 	}
+	& code {
+		font-size: inherit;
+	}
 }
 .muted {
 	opacity: 0.6;
