@@ -1,6 +1,7 @@
 ---
 title: Wi-Fi QR Code Format
 date: 2022-12-15
+tags: [wifi]
 ---
 
 > `WIFI:T:WPA;S:my_ssid;P:mys3curepasswd;;`

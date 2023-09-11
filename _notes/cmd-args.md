@@ -1,6 +1,7 @@
 ---
 title: Parse Command Line Arguments
 date: 2020-11-05
+tags: [args, argv]
 ---
 
 ## Node.js:

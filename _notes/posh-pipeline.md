@@ -31,4 +31,4 @@ Citing [this](https://learn.microsoft.com/en-us/powershell/scripting/developer/c
 
 
 [reference](https://devblogs.microsoft.com/scripting/incorporating-pipelined-input-into-powershell-functions/)
-[if `process` aliases `get-process`](https://github.com/PowerShell/PSScriptAnalyzer/issues/1402)
+[if `process` aliases `get-process`](https://github.com/PowerShell/PSScriptAnalyzer/issues/1402#issuecomment-774715321)

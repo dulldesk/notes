@@ -16,6 +16,8 @@ PowerShell | `[char]0x1b + '['` (or in one string via a subexpression operator: 
 
 `esc` is encoded in octal in Python and Bash (hence `\0`) but in hexadecimal in JavaScript (`\x`), Java (`\u` for unicode), and PowerShell (`0x`).
 
+In Bash, use `printf` or `echo -e` to allow the backslash escapes.
+
 The colour codes are as follows.
 
 <div class="multi-table-wrapper">
@@ -65,6 +67,7 @@ Note that colour can also be printed in [PowerShell terminals]({{ "posh-colours"
 <small>
 [On ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors)
 [Source](https://stackoverflow.com/a/41407246)
+[on bash](https://stackoverflow.com/a/5947802)
 </small>
 
 <style>

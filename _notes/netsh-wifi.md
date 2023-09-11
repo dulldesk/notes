@@ -1,7 +1,7 @@
 ---
 title: netsh for WiFi
 date: 2021-07-23
-tags: ["netsh","wlan","network"]
+tags: ["netsh","wlan","network", "wi-fi"]
 ---
 
 Get plaintext password of current/past networks

@@ -1,5 +1,5 @@
 ---
-title: the formats of git log
+title: The formats of git log
 date: 2022-10-01
 tags: [pretty, fuller]
 ---
