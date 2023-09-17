@@ -27,3 +27,5 @@ ni -i hardlink link.txt -tar src.txt
 
 [Source](https://techexpert.tips/powershell/powershell-creating-symbolic-link/)
 [On symlinks, hard links, and junctions](https://www.2brightsparks.com/resources/articles/NTFS-Hard-Links-Junctions-and-Symbolic-Links.pdf)
+
+<small>Bash: `ln -s /path/src /path/target`</small>
