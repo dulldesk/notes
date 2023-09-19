@@ -43,9 +43,7 @@ The MDN docs state that the parent element is "*replaced by [its] pseudo-box and
 
 A particularly handy use case that I encountered for this property is as follows:
 
-<div style="overflow-x:auto">
-	<img class="dark-invert" src="{{ 'assets/img/flow.png' | relative_url }}">
-</div>
+{% include img-scroll.html src='assets/img/flow.png' class='dark-invert' %}
 
 <small class="mobile-only muted">*The image horizontally scrolls if on mobile*</small>
 

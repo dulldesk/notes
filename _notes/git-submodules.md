@@ -10,7 +10,7 @@ Adding and maintaining submodules:
 git submodule add <url to git project> # e.g. https://github.com/git/git
 git submodule add <url to git project> <dir name>
 
-git submodule update
+git submodule update --remote
 ```
 
 When cloning a project with submodules:

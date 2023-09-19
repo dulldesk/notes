@@ -1,7 +1,7 @@
 ---
 title: Parse Command Line Arguments
 date: 2020-11-05
-tags: [args, argv]
+tags: [args, argv, js, python, java, javascript, c, c++]
 ---
 
 ## Node.js:
@@ -23,6 +23,13 @@ Variable: `args` (`String[]` datatype parameter in `main()` function)
 ```
 $ java Main 1 2 3
 Contents of String[] args: ["1", "2", "3"]
+```
+
+## C/C++
+Variable: `argv` (length is `argc`)
+```c
+int main(int argc, char * argv[]) {}
+// also: char **argv
 ```
 
 <small>[node.js](https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/)</small>

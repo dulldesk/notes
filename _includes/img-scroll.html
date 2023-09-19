@@ -1,0 +1,13 @@
+{%- assign prefix = include.src | slice:0,7 -%}
+{%- if prefix == "assets/" -%}
+	{%- assign src = include.src | relative_url -%}
+{%- else -%}
+	{%- assign src = include.src -%}
+{%- endif -%}
+
+<div style="overflow-x:auto">
+	<img src="{{ src }}"
+		{% if include.class -%}class="{{ include.class }}"{%- endif %}
+		{% if include.style %}style="{{ include.style }}"{%- endif %}
+		{% if include.alt %}alt="{{ include.alt }}"{%- endif %}>
+</div>
