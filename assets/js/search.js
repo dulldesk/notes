@@ -3,6 +3,7 @@ let focus = _ => document.getElementById("searchbar").focus();
 let last_hr;
 
 function filter(phrase) {
+	phrase = phrase.toLowerCase()
 	try {last_hr.classList.remove("hide"); last_hr = undefined;} catch {}
 	
 	document.querySelectorAll(".list__node").forEach(i => {
