@@ -7,3 +7,4 @@ tags: [autocomplete]
 * bash: find `git-completion.bash` or `bash_completion` ([link](https://stackoverflow.com/questions/11173447/how-can-i-set-up-autocompletion-for-git-commands))
 * powershell: [posh-git](https://git-scm.com/book/ms/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Powershell) ([repo](https://github.com/dahlbyk/posh-git))
 
+also: `git lfs completion` ([docs](https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-completion.adoc))
