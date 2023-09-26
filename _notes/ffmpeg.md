@@ -27,6 +27,22 @@ ffmpeg -i in.mp4 -ss hh:mm:ss -to hh:mm:ss out.mp4
 ffmpeg -i in.mp4 -an out.mp4
 ```
 
+## Adjust audio:
+```
+ffmpeg -i in.mp4 -af "volume=0.1" out.mp4
+```
+- `-af` filter audio stream
+
+
+## Add audio to video:
+```
+ffmpeg -i in.mp4 -i audio.mp3 -filter_complex "amix=inputs=2:duration=first" -c:v copy out.mp4
+```
+- loop audio: `-stream_loop -1 -i background.wav`
+
+[amix](https://ffmpeg.org/ffmpeg-filters.html#amix) [source](https://superuser.com/questions/1662796/ffmpeg-how-to-merge-a-video-file-with-its-own-audio-and-an-audio-track-that) [another](https://superuser.com/a/277667)
+
+
 ## Format:
 - `-f rawvideo` to force input/output file format (usually auto-determined by file extension)
 - `-pix_fmt rgb24` per [Wikipedia](https://en.wikipedia.org/wiki/Pixel_Format), the format in which the image data output is represented
@@ -37,7 +53,7 @@ ffmpeg -i in.mp4 -an out.mp4
 
 ## General:
 - `-c copy` for no re-encoding
-- `-preset veryfast|ultrafast|...` for faster compression (tradeoff size/quality)
+- `-preset veryfast|ultrafast|...` for faster compression (tradeoff size/quality) [list](https://trac.ffmpeg.org/wiki/Encode/H.264#Preset)
 - `ffplay` to play a video (mostly used to test ffmpeg transformations)
 - `ffmpeg -i in.mp4 -filter_complex "select=bitor(gt(scene\,0.5)\,eq(n\,0))" -vsync drop "frames/%04d.jpg"` export unique frames? (`magick in.mp4[0]` for single frame) ([src](https://superuser.com/a/1785999))
 
