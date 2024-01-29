@@ -20,3 +20,5 @@ tags: [js,html,javascript]
 	* `CaretPosition` properties: `offsetNode`, `offset`
 	* caretRange returns a [Range](https://developer.mozilla.org/en-US/docs/Web/API/Range) (or `null`)
 
+* [example (on github)](https://github.com/dulldesk/quiz-builder/blob/main/web/src/helpers/dragndrop.js)
+
