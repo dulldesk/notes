@@ -1,7 +1,7 @@
 ---
 title: LaTeX Snippets
 date: 2023-10-01
-tags: [counter, color, colour]
+tags: [counter, color, colour, enumitem]
 ---
 
 ## Colours
@@ -25,7 +25,7 @@ tags: [counter, color, colour]
 ```
 Sample Usage (e.g. for tables):
 ```latex
-begin{tabular}{c|cc}
+\begin{tabular}{c|cc}
     & a & b \\
     \hline
     \st & 1 & 1 \\
@@ -50,7 +50,28 @@ begin{tabular}{c|cc}
 \includepdf[pages=-]{file.pdf}
 ```
 
+## enumitem
+
+```latex
+\usepackage[shortlabels]{enumitem}
+% ...
+\begin{enumerate}[(a)]
+```
+
+[quick reference](https://ctan.math.illinois.edu/macros/latex/contrib/enumitem/enumitem.pdf)
+
+
 ## Miscellaneous
 
 * `\pagestyle{empty}` remove page numbers
+* `\newcommand*{\bqed}{$\blacksquare$}`
 
+Symbols:
+* [some arrows](https://garsia.math.yorku.ca/MPWP/LATEXmath/node9.html)
+* `\mathcal{E}` ε
+* `\bigcup` union set operator
+* `\langle`,`\rangle` ⟨⟩
+
+<style>
+h2 + div pre.highlight, h2 + ul { margin-top: 0; }
+</style>
