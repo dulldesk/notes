@@ -1,7 +1,7 @@
 ---
 title: Creating file extension associations
 date: 2020-05-17
-tags: [assoc, filetype, ftype]
+tags: [assoc, filetype, ftype, cmd]
 ---
 
 ```batch
