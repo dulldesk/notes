@@ -1,7 +1,7 @@
 ---
 title: Code beep
 date: 2021-09-24
-tags: [posh,sounds]
+tags: [posh,python,js,javascript,sounds]
 ---
 
 PowerShell:
@@ -22,3 +22,10 @@ Python (🧀):
 os.system("printf '\a'")
 ```
 
+JavaScript:
+```js
+{% include js-beep.html -%}
+```
+(if not user-triggered, requires autoplay enabled)
+
+[source](https://stackoverflow.com/questions/879152/how-do-i-make-javascript-beep) [override window.alert](https://superuser.com/a/1642565)
