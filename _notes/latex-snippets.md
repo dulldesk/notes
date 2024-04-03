@@ -50,6 +50,24 @@ Sample Usage (e.g. for tables):
 \includepdf[pages=-]{file.pdf}
 ```
 
+### Crop Images
+
+```latex
+\usepackage{graphicx}
+
+\includegraphics[trim={5cm 0 0 0},clip]{image.png}
+```
+
+or
+
+```
+\usepackage[export]{adjustbox}
+
+\adjincludegraphics[trim={0 0 {.5\width} 0},clip]{image.png}
+```
+
+[source](https://tex.stackexchange.com/questions/57418/crop-an-inserted-image)
+
 ## enumitem
 
 ```latex
