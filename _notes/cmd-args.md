@@ -1,7 +1,7 @@
 ---
 title: Parse Command Line Arguments
 date: 2020-11-05
-tags: [args, argv, js, python, java, javascript, c, c++]
+tags: [args, argv, js, python, java, javascript, c, c++, node]
 ---
 
 ## Node.js:
@@ -10,6 +10,8 @@ Variable: `process.argv`
 $ node argv.js 1 2 3 
 [ '/path/to/node', '/path/to/argv.js', '1', '2', '3' ]
 ```
+
+Also: [`parseArgs`](https://nodejs.org/api/util.html#utilparseargsconfig) from `node:util`
 
 ## Python
 Variable: `sys.argv` (must import `sys` module)
