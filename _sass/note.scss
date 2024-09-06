@@ -83,6 +83,20 @@
 			}
 		}
 	}
+	button.styled {
+		font-family: "Open Sans", sans-serif;
+		color: $text;
+		background-color: $bkgd-fade;
+		border: none;
+		border-radius: 5px;
+		padding: 5px 10px;
+		font-size: 1rem;
+		cursor: pointer;
+
+		&:hover {
+			box-shadow: 0 0 3px $lavendar;
+		}
+	}
 }
 
 .note, .note + footer {
