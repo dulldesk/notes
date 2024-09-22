@@ -66,6 +66,8 @@ or
 \adjincludegraphics[trim={0 0 {.5\width} 0},clip]{image.png}
 ```
 
+trim from edge order: `left bottom right top`
+
 [source](https://tex.stackexchange.com/questions/57418/crop-an-inserted-image)
 
 ## enumitem
