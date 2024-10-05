@@ -1,6 +1,7 @@
 ---
 title: Custom YouTube Speed
 date: 2021-06-20
+tags: [bookmarklet, js]
 ---
 
 ```javascript

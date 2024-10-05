@@ -1,6 +1,7 @@
 ---
 title: Remove YouTube Cards
 date: 2021-06-20
+tags: [bookmarklet, js]
 ---
 
 ```javascript
