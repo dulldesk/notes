@@ -76,7 +76,10 @@ trim from edge order: `left bottom right top`
 \usepackage[shortlabels]{enumitem}
 % ...
 \begin{enumerate}[(a)]
+\begin{enumerate}[label=(\textbf{\alph*})]
 ```
+
+also available: `\Alph`, `\roman`, `\Roman`
 
 [quick reference](https://ctan.math.illinois.edu/macros/latex/contrib/enumitem/enumitem.pdf)
 
