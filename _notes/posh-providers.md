@@ -1,5 +1,6 @@
 ---
 title: PowerShell Providers
+date: 2025-05-27
 tags: [posh,alias,function]
 ---
 
@@ -7,8 +8,8 @@ PowerShell exposes a number of "providers" as "drives", which allows us to view 
 i.e. we can use operations like `ls` and `cat` on them (ish).
 
 To list the available providers:
-```powershell
-PS ~> Get-PSProvider
+```
+> Get-PSProvider
 
 Name           Capabilities                          Drives
 ----           ------------                          ------
@@ -29,8 +30,10 @@ They can be accessed like filesystem objects in PowerShell, e.g. `gci alias`, `g
 ## Examples
 
 - the Alias provider exposes the `Alias:` drive:
-```powershell
-PS ~> gci alias:
+
+```
+> gci alias:
+
 CommandType     Name                                               Version    Source
 -----------     ----                                               -------    ------
 Alias           ? -> Where-Object                                             
@@ -44,7 +47,7 @@ Alias           clp -> Clear-ItemProperty
 Alias           cls -> Clear-Host                                             
 
 # equivalent to Get-Alias gci
-PS ~> Get-Item alias:gci 
+> Get-Item alias:gci
 
 CommandType     Name                                               Version    Source
 -----------     ----                                               -------    ------

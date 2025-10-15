@@ -84,6 +84,19 @@ also available: `\Alph`, `\roman`, `\Roman`
 [quick reference](https://ctan.math.illinois.edu/macros/latex/contrib/enumitem/enumitem.pdf)
 
 
+## List spacing
+
+![](https://images.ctfassets.net/nrgyaltdicpt/67uSeKS7soJ7j4yHs0IpDQ/319c15cf752ff6958ef6f1d509bf288e/LaTeX_list_parameters-plain.svg)
+
+diagram is available with:
+
+```latex
+\usepackage{layouts}
+% ...
+\listdiagram
+```
+
+
 ## Miscellaneous
 
 * `\pagestyle{empty}` remove page numbers

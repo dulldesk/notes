@@ -34,3 +34,7 @@ set lazyredraw
 - [nord theme installation](https://www.nordtheme.com/docs/ports/vim/installation)
 
 <small>[clipboard stuff](https://stackoverflow.com/a/10979533) [indent stuff](https://vi.stackexchange.com/questions/7975/how-can-i-change-the-indent-size)</small>
+
+# Commands
+
+> Indent five lines: `5>>`. Indent a curly-braces block: put cursor on one of the curly braces, `>%`; from anywhere inside the block:  `>iB`. ([src](https://stackoverflow.com/a/235841))

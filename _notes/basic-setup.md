@@ -17,6 +17,8 @@ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 brew install neovim
 brew install --cask unnaturalscrollwheels
 brew install --cask powershell
+brew install bat
+brew install gh gnupg ykman
 
 git config --global core.editor nvim
 git config --global alias.st status

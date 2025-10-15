@@ -46,6 +46,11 @@ Some other options/flags:
 
 [docs](https://qpdf.readthedocs.io/en/stable/cli.html)
 
+Not qpdf, but blank one-page pdf:
+```
+magick xc:none -page Letter blank.pdf
+```
+
 <style>
 pre,ul {margin-top: 0}
 ul + p {margin-bottom: 0.5rem}

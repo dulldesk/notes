@@ -6,7 +6,7 @@ tags: [js, javascript, nan, "isnan()", typescript]
 
 Number.isNaN() and isNaN() behave differently.
 
-|  | **Number.isNaN()** | **isNaN()** |
+|  | **Number.isNaN()**&nbsp;&nbsp; | **isNaN()** |
 | --- | --- | --- |
 | `'asdf'` | false | true |
 | `undefined` | false | true |
@@ -20,7 +20,7 @@ Note that TypeScript only accepts `unknown` as the parameter type, even though J
 
 Cases with the same behaviour:
 
-|  | **Number.isNaN()** | **isNaN()** |
+|  | **Number.isNaN()**&nbsp;&nbsp; | **isNaN()** |
 | --- | --- | --- |
 | `123` | false | false |
 | `'123'` | false | false |
@@ -33,9 +33,9 @@ Cases with the same behaviour:
 | `0/0` | true | true |
 | `NaN` | true | true |
 
-### Further Reading
+## Further Reading
 
-[Number.isNaN() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN#)
+[Number.isNaN()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN#)
 
-[isNaN() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
+[isNaN()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
 
