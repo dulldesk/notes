@@ -40,7 +40,10 @@ square | &#9632;
 {% endcapture %}
 {{ md | markdownify }}
 
+{% capture mdext %}
 [egyptian hieroglyphs](https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block))
+{% endcapture %}
+{{ mdext | markdownify }}
 
 <style>
 td {font-family: monospace;}
