@@ -17,3 +17,4 @@ $ tshark -r file.pcapng -T fields -e dns.qry.name -Y "ip.addr == 18.217.1.57 && 
 
 `-T`: format of text output (required for `-e`; `fields` option outputs only the field value)
 
+[sample captures](https://wiki.wireshark.org/samplecaptures)
