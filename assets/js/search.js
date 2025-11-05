@@ -15,7 +15,15 @@ function filter(phrase) {
 	try {last_hr.classList.add("hide")} catch {}
 }
 
+function populateQuery() {
+	const urlParams = new URLSearchParams(window.location.search);
+	const query = urlParams.get("q")
+	filter(query);
+	document.getElementById("searchbar").value = query;
+}
+
 window.addEventListener("load", () => {
 	focus();
 	window.addEventListener("keyup", focus);
+	populateQuery();
 });
